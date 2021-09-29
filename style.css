@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+header{
+  display: grid;
+	place-content: center;
+ 	min-height: 100vh;
+	margin: -0.5em;
+/*   background-color:violet; */
+  background-image:
+    url('https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80'),
+    repeating-linear-gradient(45deg,lightblue 0em,lightblue 1em, lightpink 1em, lightpink 2em),
+  repeating-linear-gradient(135deg,
+  lightcoral 0, 
+  lightcoral 1em, 
+  transparent 1em,
+  transparent 2em
+  );
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-blend-mode:multiply,screen;
+}
+h1{
+  color:pink;
+  font-family: 'Oleo Script', sans serif;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 6;
+  text-align: center;
+  text-shadow: 0.125em 0.125em rgba(255,0,0,0.75),
+    -0.125em -0.125em rgba(0,255,255,0.75);
+}
